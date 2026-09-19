@@ -1,18 +1,1 @@
-name: CI
-on:
-  push:
-    branches: ["main", "feat/**"]
-  pull_request:
-    branches: ["main"]
-jobs:
-  verify:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: npm install
-      - run: npm run typecheck
-      - run: npm run build
+{"name":"mintcar","version":"0.1.0","private":true,"scripts":{"build":"next build","typecheck":"tsc --noEmit"},"dependencies":{"next":"15.5.7","react":"19.1.1","react-dom":"19.1.1"},"devDependencies":{"@types/node":"22.15.30","@types/react":"19.1.2","@types/react-dom":"19.1.2","typescript":"5.8.3"}}
