@@ -1,10 +1,14 @@
-# Mintcar
+# RODVIA
 
-PMV para explorar negocios de compra y venta de autos usados.
+PMV para explorar una plataforma digital para negocios que venden.
 
 ## Objetivo
 
-Validar si negocios que venden vehículos están dispuestos a pagar mensualmente por una plataforma digital propia para mostrar y comercializar su inventario.
+Validar si negocios con inventario comercial están dispuestos a pagar mensualmente por una plataforma digital propia para mostrar y generar oportunidades desde su propio canal.
+
+## Vertical inicial
+
+Vehículos. La arquitectura del PMV queda preparada conceptualmente para extenderse a autopartes y otras categorías de inventario sin convertirlas en alcance del Demo Ready actual.
 
 ## Demo Ready
 
